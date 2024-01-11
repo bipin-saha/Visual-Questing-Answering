@@ -1,0 +1,4 @@
+streamlit
+textwarp
+google.generativeai
+pillow
