@@ -47,9 +47,16 @@ if uploaded_file is not None:
 submit = st.button("Generate")
 
 input_prompt = """
-                You are an expert in understanding road triffic in the sense of autonomous driving and path planning.
-                You will receive an input image as natural road scene and
-                you will have to answer questions based on the input image
+                You are an expert in nutritionist where you need to see the food items from the image
+               and calculate the total calories, also provide the details of every food items with calories intake
+               is below format
+
+               1. Item 1 - no of calories
+               2. Item 2 - no of calories
+               ----
+               ----
+
+
                 """
 
 if submit:
